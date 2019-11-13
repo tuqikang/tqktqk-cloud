@@ -1,12 +1,12 @@
 spring:
   application:
-    name: tqk-eureka-client
+    name: tqk-eureka-consumer
 #  cloud:
 #    consul:
 #      host: localhost
 #      port: 8500
 server:
-  port: 9993
+  port: 9992
 eureka:
   client:
     serviceUrl:

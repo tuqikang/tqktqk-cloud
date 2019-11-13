@@ -9,9 +9,9 @@
         <relativePath/>
     </parent>
     <groupId>cn.tqktqk.work</groupId>
-    <artifactId>learn-cloud-clientone</artifactId>
+    <artifactId>learn-cloud-consumer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>learn-cloud-clientone</name>
+    <name>learn-cloud-consumer</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -27,10 +27,14 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka-server</artifactId>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-starter-consul-discovery</artifactId>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.cloud</groupId>-->
+        <!--            <artifactId>spring-cloud-starter-consul-discovery</artifactId>-->
+        <!--        </dependency>-->
     </dependencies>
 
     <dependencyManagement>
