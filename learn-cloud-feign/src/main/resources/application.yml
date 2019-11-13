@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: tqk-eureka-feign
+#  cloud:
+#    consul:
+#      host: localhost
+#      port: 8500
+server:
+  port: 10001
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8881/eureka/
+
